@@ -68,7 +68,7 @@ export default function Navbar() {
               opacity: 1,
             }}
           >
-            timeless
+            seraya
           </Link>
 
           {/* Right nav */}

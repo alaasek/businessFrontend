@@ -83,7 +83,7 @@ export default function HomePage() {
   }}
 >
   <p className="section-label fade-up fade-up-delay-1" style={{ marginBottom: "1.5rem" }}>
-    Spring — Summer 2025
+    Spring — Summer 
   </p>
 
   <p
@@ -155,7 +155,7 @@ export default function HomePage() {
               whiteSpace: "nowrap",
             }}
           >
-            {Array(6).fill(["Free Shipping Over $350", "Made in Italy", "Sustainable Fabrics", "New Collection — SS25"]).flat().map((text, i) => (
+            {Array(6).fill(["Free Shipping Over $350", "Sustainable Fabrics", "New Collection "]).flat().map((text, i) => (
               <span
                 key={i}
                 style={{
@@ -268,7 +268,7 @@ export default function HomePage() {
               Crafted for the ones who choose fewer, better things.
             </h2>
             <Link
-              href="/products"
+              href="/archive"
               style={{
                 display: "inline-block",
                 fontSize: "0.65rem",
