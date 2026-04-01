@@ -1,0 +1,9 @@
+:root {
+    --bg-parchment: #F9F4EE;
+    --text-charcoal: #F9F4EE;
+}
+
+body {
+    background-color: var(--bg-parchment);
+    color: var(--text-charcoal);
+}
